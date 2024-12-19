@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Naturally Yours</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&display=swap" rel="stylesheet">
+  </head>
+  </head>
+  <body>
+    <!-- Navigation Bar -->
+    <nav>
+      <div class="logo">
+        <img src="library/logo2.png" alt="Food Logo" />
+      </div>
+      <div class="nav-links">
+        <a href="#" onclick="showSection('home')">Home</a>
+        <a href="#" onclick="showSection('menu')">Menu</a>
+        <a href="#" onclick="showSection('about')">About Us</a>
+        <a href="#" onclick="showSection('did-you-know')">Did You Know</a>
+        <a href="#" onclick="showSection('contact-form')">Contacts</a>
+      </div>
+    </nav>
+
+    <!-- Sections -->
+    <!-- Home Section -->
+    <div id="home" class="section active">
+      <p>Deliciously Healthy, <span style="font-family: 'Dancing Script', cursive; font-size: 3em; font-weight: 700; color: #2a7d4f;">Naturally Yours</span></p>
+      <div class="home-bg">
+      <div class="home-images">
+        <div class="food-item">
+          <img src="library/1.png" alt="Pasta" class="food-image" />
+          <h3>Pasta</h3>
+        </div>
+        <div class="food-item">
+          <img src="library/2.png" alt="Beverage" class="food-image" />
+          <h3>Beverage</h3>
+        </div>
+        <div class="food-item">
+          <img src="library/3.png" alt="Dessert" class="food-image" />
+          <h3>Dessert</h3>
+        </div>
+      </div>
+      <p>
+        Welcome to Naturally Yours, where healthy living meets irresistible
+        flavor. We believe that nourishing your body shouldn’t feel like a
+        chore—it should be a joy. That’s why we’ve created a collection of
+        plant-based meals and snacks designed to make eating well easy,
+        delicious, and satisfying.
+      </p>
+    </div>
+    </div>
+
+    <!-- Menu Section -->
+    <div id="menu" class="section">
+      <div class="menu-container">
+        <h1>Our Menu</h1>
+
+        <!-- Pasta Category -->
+        <div class="category">
+          <h3>Pasta</h3>
+          <div class="food-grid">
+            <div class="food-item-menu">
+              <img src="library/11.png" alt="Pasta 1" />
+              <div class="food-overlay">
+                <h4>Malunggay Pesto</h4>
+                <p>
+                  A pasta made with Malunggay (Moringa), which masks the
+                  vegetable taste while still offering its health benefits.
+                </p>
+              </div>
+            </div>
+            <div class="food-item-menu">
+              <img src="library/22.png" alt="Pasta 2" />
+              <div class="food-overlay">
+                <h4>Cauliflower Alfredo</h4>
+                <p>
+                  A creamy pasta with a nutrient-packed, vegetable-based Alfredo
+                  sauce.
+                </p>
+              </div>
+            </div>
+            <div class="food-item-menu">
+              <img src="library/33.png" alt="Pasta 3" />
+              <div class="food-overlay">
+                <h4>Tomato-bell Pepper Sauce</h4>
+                <p>
+                  A flavorful sauce that mimics traditional spaghetti sauce but
+                  includes more veggies.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Beverage Category -->
+        <div class="category">
+          <h3>Beverage</h3>
+          <div class="food-grid">
+            <div class="food-item-menu">
+              <img src="library/44.png" alt="Beverage 1" />
+              <div class="food-overlay">
+                <h4>Protein Shake</h4>
+                <p>
+                  Shakes made with hidden vegetables like spinach or kale but
+                  taste like chocolate or vanilla.
+                </p>
+              </div>
+            </div>
+            <div class="food-item-menu">
+              <img src="library/55.png" alt="Beverage 2" />
+              <div class="food-overlay">
+                <h4>Detox Juices</h4>
+                <p>
+                  Flavorful combinations like lemon, cucumber, ginger, and mint
+                  for hydration and detox benefits.
+                </p>
+              </div>
+            </div>
+            <div class="food-item-menu">
+              <img src="library/66.png" alt="Beverage 3" />
+              <div class="food-overlay">
+                <h4>Herbal Teas</h4>
+                <p>
+                  Iced or hot teas made from natural herbs, offering relaxation
+                  or energy benefits.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Dessert Category -->
+        <div class="category">
+          <h3>Dessert</h3>
+          <div class="food-grid">
+            <div class="food-item-menu">
+              <img src="library/77.png" alt="Dessert 1" />
+              <div class="food-overlay">
+                <h4>Energy Balls</h4>
+                <p>
+                  Snack balls made with oats, dates, and hidden vegetables like
+                  carrots or zucchini.
+                </p>
+              </div>
+            </div>
+            <div class="food-item-menu">
+              <img src="library/88.png" alt="Dessert 2" />
+              <div class="food-overlay">
+                <h4>Chia Seed Pudding</h4>
+                <p>
+                  A creamy, nutrient-packed dessert that feels indulgent but is
+                  actually healthy.
+                </p>
+              </div>
+            </div>
+            <div class="food-item-menu">
+              <img src="library/99.png" alt="Dessert 3" />
+              <div class="food-overlay">
+                <h4>Greek Yogurt Parfaits</h4>
+                <p>
+                  Yogurt layered with granola and fruits for a protein-packed
+                  snack.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- About Section -->
+    <div id="about" class="section">
+      <h1>About Us</h1>
+      <div class="about-content">
+        <div class="about-image">
+          <img src="library/logo.png" alt="Healthy Food" class="logo-image" />
+        </div>
+        <div class="about-text">
+          <p>
+            At Naturally Yours, we celebrate the goodness of nature by
+            transforming vegetables and wholesome ingredients into meals you’ll
+            genuinely crave. From our Malunggay Pesto and creamy Cauliflower
+            Alfredo to refreshing Detox Juices and indulgent Chia Seed Pudding,
+            every product is crafted to delight your taste buds while staying
+            true to our commitment to natural, clean eating.
+          </p>
+          <p>
+            We’re here to prove that healthy doesn’t have to mean bland. With no
+            artificial additives and plenty of bold, vibrant flavors, our
+            offerings are perfect for busy individuals who value both quality
+            and convenience.
+          </p>
+          <p>
+            Experience the perfect balance of taste and nutrition. With
+            Naturally Yours, eating healthy feels effortless, enjoyable,
+            and—most importantly—naturally yours.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- DYK Section -->
+    <div id="did-you-know" class="section">
+      <h1>Did You Know?</h1>
+      <div class="did-you-know-content">
+        <div class="did-you-know-text">
+          <h2>🌿 The Benefits of Healthy Foods</h2>
+          <p>
+            Healthy foods are packed with essential nutrients like vitamins,
+            minerals, and antioxidants that help your body fight disease and
+            stay energized. They improve heart health by lowering bad
+            cholesterol and reducing the risk of high blood pressure.
+          </p>
+          <p>
+            A diet rich in vegetables, fruits, and whole grains boosts digestion
+            and supports a stronger immune system. Eating healthy helps enhance
+            mental clarity, reduce stress, and improve overall well-being.
+          </p>
+          <h2>♻️ Eco-Friendly Packaging</h2>
+          <p>
+            At Naturally Yours, we believe in taking care of both your health
+            and the planet. That’s why we use biodegradable packaging—because
+            what’s good for you should also be good for the environment!
+          </p>
+          <p>Choose healthy. Choose sustainable. Choose <span style="font-family: 'Dancing Script', cursive; font-size: 2em; font-weight: 700; color: #2a7d4f;">Naturally Yours.</span></p>
+        </div>
+
+        <div class="eco-images">
+          <img src="library/container.png" alt="Eco Packaging 1" />
+          <img src="library/cup.png" alt="Eco Packaging 2" />
+          <img src="library/straw.png" alt="Eco Packaging 3" />
+          <img src="library/utensils.png" alt="Eco Packaging 4" />
+        </div>
+      </div>
+    </div>
+
+    <!-- Contact Form Section -->
+    <div id="contact-form" class="section">
+      <h1>Contact Us</h1>
+      <p>Please fill out the form below for any inquiries:</p>
+
+      <!-- Inquiry Form -->
+      <form
+        id="inquiryForm"
+        action="https://script.google.com/macros/s/YOUR_SCRIPT_ID/exec"
+        method="POST"
+      >
+        <div class="form-group">
+          <label for="name">Your Name:</label>
+          <input
+            type="text"
+            id="name"
+            name="name"
+            placeholder="Enter your name"
+            required
+          />
+        </div>
+
+        <div class="form-group">
+          <label for="email">Your Email:</label>
+          <input
+            type="email"
+            id="email"
+            name="email"
+            placeholder="Enter your email"
+            required
+          />
+        </div>
+
+        <div class="form-group">
+          <label for="message">Your Message:</label>
+          <textarea
+            id="message"
+            name="message"
+            placeholder="Enter your message"
+            required
+          ></textarea>
+        </div>
+
+        <button type="submit" class="submit-btn">Submit</button>
+      </form>
+
+      <!-- Contact Links -->
+      <div class="contact-links">
+        <h2>Get In Touch</h2>
+        <ul>
+          <li>
+            <a href="mailto:naturallyyours@email.com" target="_blank">Email Us</a>
+          </li>
+          <li><a href="Number: 0912 345 6789" target="_blank">Call Us</a></li>
+          <li>
+            <a href="https://www.facebook.com/profile.php?id=61570248014172" target="_blank"
+              >Follow us on Facebook</a
+            >
+          </li>
+        </ul>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
